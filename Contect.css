@@ -1,0 +1,104 @@
+/* Contact Section */
+.contact {
+    text-align: center;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 50px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #00bcd4;
+}
+
+.contact-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contact-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #00bcd4;
+    box-shadow: 0px 0px 10px rgba(0, 188, 212, 0.5);
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+
+
+/* Change the color of the email link */
+.email-link {
+    color: #007BFF; /* Change this to your desired color */
+    text-decoration: none; /* Optional: Remove underline */
+}
+
+/* Change the color of the phone link */
+.phone-link {
+    color: #28A745; /* Change this to your desired color */
+    text-decoration: none; /* Optional: Remove underline */
+}
+
+/* Hover effect for email link */
+.email-link:hover {
+    color: #0056b3; /* Change this to your desired hover color */
+    text-decoration: underline; /* Optional: Add underline on hover */
+}
+
+/* Hover effect for phone link */
+.phone-link:hover {
+    color: #218838; /* Change this to your desired hover color */
+    text-decoration: underline; /* Optional: Add underline on hover */
+}
+
+
+
+/* Social Media Icons */
+.social-icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    transition: background 0.3s ease;
+}
+
+/* Icon Colors */
+.linkedin { background: #0077b5; }
+.linkedin:hover { background: #005582; }
+
+.facebook { background: #3b5998; }
+.facebook:hover { background: #2d4373; }
+
+.twitter { background: #1da1f2; }
+.twitter:hover { background: #1991db; }
+
+.instagram { background: #e4405f; }
+.instagram:hover { background: #c13584; }
+
+
+
+

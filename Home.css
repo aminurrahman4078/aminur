@@ -1,0 +1,84 @@
+.home {
+    background: #222;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    margin-bottom: 15px;
+}
+
+.profile h1 {
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+.profile p {
+    font-size: 18px;
+    color: #ddd;
+}
+
+.skills, .address {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px 0;
+    width: 100%;
+    text-align: left;
+}
+
+.skills h2, .address h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #00bcd4;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    font-size: 18px;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.skills li i {
+    margin-right: 10px;
+    color: #ff9800;
+}
+
+.address p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.address i {
+    color: #ff9800;
+    margin-right: 10px;
+}
+
+.address a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+.address a:hover {
+    color: #ff9800;
+}
